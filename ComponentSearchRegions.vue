@@ -45,7 +45,7 @@
        * @returns {Promise<void>}
        */
       async search() {
-        this.regions = await this.$api.FIAS.getAddress(this.region);
+        this.addressList = await this.$api.FIAS.getAddress(this.region);
       },
     },
 
